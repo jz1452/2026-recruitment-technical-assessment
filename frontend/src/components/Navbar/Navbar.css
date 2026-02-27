@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background-color: var(--bg-color);
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.logo-icon {
+    height: 40px;
+    width: auto;
+}
+
+.logo-text {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary);
+    letter-spacing: -0.5px;
+}
+
+.navbar-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: var(--radius-md);
+    color: var(--primary);
+    border: 1px solid var(--border-color);
+}
+
+.icon-btn.active-bg {
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.icon-btn span {
+    font-size: 24px;
+}
